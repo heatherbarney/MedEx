@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Redirect, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux'
 import { validateUser, resetLoginError } from '../slices/authSlice.js';
-import medexLogo from '../../assests/medexLogo.png'
+import medexLogo from '../../assets/medexLogo.png'
 
 const theme = createTheme();
 

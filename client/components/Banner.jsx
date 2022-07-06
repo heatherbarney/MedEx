@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import medexLogo from '../../assests/medexLogo.png'
+import medexLogo from '../../assets/medexLogo.png'
 
 function Banner() {
 
