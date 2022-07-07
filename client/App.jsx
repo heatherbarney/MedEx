@@ -1,7 +1,7 @@
 import React from "react";
 import MainContainer from './components/MainContainer.jsx';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Login from './components/Login.jsx';
+import Login from './components/LogIn.jsx';
 import Register from './components/Register.jsx';
 
 
