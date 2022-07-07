@@ -1,5 +1,5 @@
 {
-  "name": "medical-practice-inventory-tracker",
+  "name": "simple_stock",
   "version": "1.0.0",
   "description": "",
   "main": "client/index.js",
@@ -7,8 +7,6 @@
     "build": "NODE_ENV=production webpack",
     "dev": "webpack serve --open & nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev2": "concurrently \"webpack serve --open\" \"nodemon server/server.js\"",
-    "docker-remove-all": "docker rm $(docker ps -q -a -f 'name=medEx-') --force && docker image rm $(docker images [orgname]/mm* -q) --force && docker volume rm $(docker volume ls -q -f 'name=unit-13*') --force",
     "start": "node server/server.js"
   },
   "repository": {
