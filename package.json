@@ -1,5 +1,5 @@
 {
-  "name": "medical-practice-inventory-tracker",
+  "name": "Simple Stock",
   "version": "1.0.0",
   "description": "",
   "main": "client/index.js",
@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production webpack",
     "dev": "webpack serve --open & nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev2": "concurrently \"webpack serve --open\" \"nodemon server/server.js\""
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
