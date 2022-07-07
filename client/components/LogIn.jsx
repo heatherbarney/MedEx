@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Avatar, Button, CssBaseline, TextField, FormControlLabel, Checkbox, Grid, Box, Typography, Container, Paper } from '@mui/material';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import { Alert, Button, CssBaseline, TextField, FormControlLabel, Checkbox, Grid, Box, Typography, Container } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Redirect, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux'
@@ -59,8 +58,7 @@ function Login() {
             alignItems: 'center',
           }}
         >
-          <img width="400" height="110" src={logo} />
-          <br/>
+          <img width="300" height="300" src={logo} />
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
