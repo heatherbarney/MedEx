@@ -25,7 +25,7 @@ function Banner() {
   return (
     <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar>
-          <img src={logo} width="100" height="27.5"/>
+          <img src={logo} width="75" height="75"/>
           <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
           
           </Typography>
