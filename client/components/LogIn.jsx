@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Redirect, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux'
 import { validateUser, resetLoginError } from '../slices/authSlice.js';
-import medexLogo from '../../assets/medexLogo.png'
+import logo from '../../assets/SimpleStockLogo.png'
 
 const theme = createTheme();
 
@@ -59,7 +59,7 @@ function Login() {
             alignItems: 'center',
           }}
         >
-          <img width="400" height="110" src={medexLogo} />
+          <img width="400" height="110" src={logo} />
           <br/>
           <Typography component="h1" variant="h5">
             Sign in
