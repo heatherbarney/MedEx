@@ -1,5 +1,5 @@
 {
-  "name": "Simple Stock",
+  "name": "simple_stock",
   "version": "1.0.0",
   "description": "",
   "main": "client/index.js",
