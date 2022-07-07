@@ -1,6 +1,6 @@
-#                                             <h2 align="center"> MedEx </h2>    
+#                                             <h2 align="center"> Simple Stock </h2>    
 
-Simple Stock is an open source inventory management tool that enables individuals or small organizations to simply inventory tracking, and to easily visualize and forecast future supply needs. 
+Simple Stock is an open source inventory management tool that enables individuals or small organizations to simplify inventory tracking, and to easily visualize and forecast future supply needs. 
 
 Simple Stock was originally developed for the specific needs of two international NGO's providing rural dental care in third world countries, but the user-friendly interface is appropriate for a variety of professionals and organizations such as healthcare providers and teachers.  
  
