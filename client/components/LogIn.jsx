@@ -100,6 +100,7 @@ function Login() {
             >
               Sign In
             </Button>
+            {/*
             <Grid container>
               <Grid item xs>
                 <Link>
@@ -112,6 +113,7 @@ function Login() {
                 </Link>
               </Grid>
             </Grid>
+            */}
           </Box>
         </Box>
       </Container>
