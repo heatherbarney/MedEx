@@ -72,7 +72,6 @@ function Login() {
               label="Email Address"
               name="email"
               autoComplete="email"
-              defaultValue={"demo@demo.com"}
               autoFocus
               value={email}
               onChange={event => setEmail(event.target.value)}
@@ -84,7 +83,6 @@ function Login() {
               name="password"
               label="Password"
               type="password"
-              defaultValue={"SimpleStockDemo"}
               id="password"
               autoComplete="current-password"
               value={password}
