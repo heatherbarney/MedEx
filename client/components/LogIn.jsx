@@ -9,8 +9,8 @@ import logo from '../../assets/SimpleStockLogo.png'
 const theme = createTheme();
 
 function Login() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('demo@demo.com');
+  const [password, setPassword] = useState('SimpleStockDemo');
 
   const dispatch = useDispatch();
   const userId = useSelector((state) => state.auth.userId);
@@ -88,10 +88,10 @@ function Login() {
               value={password}
               onChange={event => setPassword(event.target.value)}
             />
-            <FormControlLabel
+            {/*<FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
-            />
+        />*/}
             <Button
               type="submit"
               fullWidth
